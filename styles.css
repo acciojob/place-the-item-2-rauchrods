@@ -1,2 +1,18 @@
-
+.holder{
+ 
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+.holder>div{
+    height:150px;
+    width: 150px;
+    background-color: aquamarine;
+    font-size: 50px;
+    border: 1px solid rgb(236, 169, 106);
+}
 /* Your CSS Code here. */
